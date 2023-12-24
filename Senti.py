@@ -21,7 +21,7 @@ def Sentiment_Analyzer(text):
 
     return sentiment , compound_scores
 
-if __name__ == '__main__':
-    s,c = Sentiment_Analyzer('I am not very Bad')
+# if __name__ == '__main__':
+#     s,c = Sentiment_Analyzer('I am not very Bad')
 
-    print(s,c)
+#     print(s,c)
