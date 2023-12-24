@@ -19,5 +19,5 @@ def Analyzer():
 
     return render_template('home.html' ,text=text,  s=sentiment,c=compoundScore)
 
-# if __name__ == '__main__':
-#     app.run(debug=True,host='0.0.0.0')
+if __name__ == '__main__':
+    app.run(debug=True,host='0.0.0.0')
