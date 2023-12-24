@@ -8,7 +8,7 @@ app = Flask(__name__)
 def Home():
     return render_template('home.html')
 
-@app.route("/analyzer" , methods=['POST'])
+@app.route("/analyzer" , methods=['POST' , 'GET'])
 def Analyzer():
     if request.method=='POST':
         text = request.form['txt']
