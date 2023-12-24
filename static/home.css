@@ -1,0 +1,53 @@
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+  }
+
+  form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .emoji-container {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+  }
